@@ -1,7 +1,9 @@
+.booksGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-.booksGrid{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+.heading {
+  padding-left: 25px;
 }
