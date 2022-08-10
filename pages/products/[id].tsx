@@ -1,10 +1,8 @@
 import { GetStaticPaths, GetStaticProps, GetServerSideProps } from "next";
 import { useRouter } from "next/router";
 import React, { FC } from "react";
-import Book from "../../features/Book/BookCard";
 import BookInfo from "../../features/Book/BookInfo";
-
-type Book = { name: string; id: string; image: string };
+import { Book } from "../../types/Book.type";
 
 interface Props {
   book: Book;

@@ -2,9 +2,8 @@ import { GetServerSideProps, NextPage } from "next";
 import React, { useState, useEffect } from "react";
 import BookCard from "../../features/Book/BookCard";
 import styles from "../../styles/Products.module.css";
+import { Book } from "../../types/Book.type";
 
-export type Book = { name: string; id: string; image: string };
-export type Books = Book[];
 interface Props {
   books: Book[];
 }
